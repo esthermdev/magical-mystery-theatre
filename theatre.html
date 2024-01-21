@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magical Mystery Theater</title>
+  <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/theatre.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="title-container container-md text-center">
+    <div class="row row-cols-1 gy-4">
+      <div class="col">
+        <div class="p-3"><h1 class="title-page">Magical Mystery Theatre</h1></div>
+      </div>
+      <div class="col">
+        <div class="p-3"><h5>Come and experience a wonderful blend of magic and mystery.</h3></div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="p-3"><button type="button" class="btn btn-primary btn-sm" onclick="buyTicket()">Purchase Ticket</button></div>
+    </div>
+  </div>
+
+  <div class="image-container container-md">
+    <div class="row g-0">
+        <div class="col-md">
+            <!-- Image fills the column -->
+            <img src="./resources/theatre-imgs/almos-bechtold-AJ_Mou1FUS8-unsplash.jpg" class="img-fluid column-img" alt="Responsive Image">
+        </div>
+        <div class="col-md">
+            <!-- Image fills the column -->
+            <img src="./resources/theatre-imgs/jeremy-bishop-uLXBeh6oHn8-unsplash.jpg" class="img-fluid column-img" alt="Responsive Image">
+        </div>
+        <div class="col-md">
+            <!-- Image fills the column -->
+            <img src="./resources/theatre-imgs/stefano-stacchini-jhPSJDhiRyQ-unsplash.jpg" class="img-fluid column-img" alt="Responsive Image">
+        </div>
+        <div class="col-md">
+            <!-- Image fills the column -->
+            <img src="./resources/theatre-imgs/rhett-wesley-NQexDDK9P9w-unsplash.jpg" class="img-fluid column-img" alt="Responsive Image">
+        </div>
+        <div class="col-md">
+            <!-- Image fills the column -->
+            <img src="./resources/theatre-imgs/jr-korpa-ZWDg7v2FPWE-unsplash.jpg" class="img-fluid column-img" alt="Responsive Image">
+        </div>
+    </div>
+
+
+    <div class="footer-container container-md">
+      <div class="row align-items-center">
+        <div class="price-info col d-flex align-items-center">
+          Standard ticket: $20
+        </div>
+        <div class="price-info col d-flex align-items-center">
+          Child / Senior ticket: $10
+        </div>
+        <div class="price-info col d-flex align-items-center">
+          Matinee Show: 3$ off ticket price
+        </div>
+      </div>
+    </div>
+
+  <script src="./static/theatre.js"></script>
+  <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

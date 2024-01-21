@@ -1,0 +1,43 @@
+body {
+  background-color: #f4c667;
+}
+
+.title-container {
+  height: 400px;
+  background-color: #0d1235;
+  color: whitesmoke
+}
+
+.image-container {
+  padding: 0;
+}  
+
+.column-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-page {
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 40px;
+}
+
+.btn {
+  background-color: #177076;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  background-color: #23c7d2;
+  border: 1px solid white;
+}
+
+.price-info {
+  height: 100px;
+  background-color: #5d5b86;
+  color: whitesmoke;
+  @media (max-width: 720px) {
+    font-size: 16px;
+  }
+}
